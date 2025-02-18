@@ -1,0 +1,39 @@
+/* Contact.css */
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #fffdfd;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    z-index: 1000;
+    animation: fadeIn 1s ease-in-out forwards;
+
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #e9e5e5ea;
+    margin: 8px 0;
+    z-index: 1000;
+  }
+  
+  a {
+    color: #0073b1; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

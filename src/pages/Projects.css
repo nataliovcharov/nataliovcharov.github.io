@@ -1,0 +1,129 @@
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #000000, #1a1a1a); 
+    font-family: 'Poppins', sans-serif;
+    padding: 100px 20px 20px; 
+    box-sizing: border-box;
+}
+
+.projects-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff758c, #ff6b81);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+.projects-description {
+    font-size: 1.3rem;
+    max-width: 80%;
+    line-height: 1.6;
+    opacity: 1;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+.project-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 117, 140, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1000;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    margin-top: 30px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 117, 140, 0.4);
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* 🔗 GitHub Link */
+.project-card a {
+    display: inline-block;
+    color: #ff758c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    margin-top: auto;
+}
+
+.project-card a:hover {
+    color: #ff6b81;
+    text-shadow: 0 0 10px #ff6b81;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-page {
+        padding-top: 120px; 
+    }
+
+    .projects-heading {
+        font-size: 2.5rem;
+    }
+
+    .projects-description {
+        font-size: 1.2rem;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
+
+video, iframe {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
