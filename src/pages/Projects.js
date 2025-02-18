@@ -31,10 +31,6 @@ function Projects() {
           <a href="https://github.com/software-students-fall2024/4-containers-java-and-the-scripts-1" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
-
-          <a href="https://github.com/software-students-fall2024/4-containers-java-and-the-scripts-1" target="_blank" rel="noopener noreferrer">
-            PyPI package link
-          </a>
         </div>
 
 
@@ -43,6 +39,9 @@ function Projects() {
           <p>We built a <strong>Python package</strong> with four versatile functions that adapt to <strong>user-defined arguments</strong>. Managed with <strong>pipenv</strong>, tested with <strong>pytest</strong>, and published on <strong>PyPI</strong>. It includes <strong>automated testing</strong> via <strong>GitHub Actions</strong>. Our <strong>structured workflow</strong> ensures reliability with <strong>feature branches</strong>, <strong>peer reviews</strong>, and <strong>clear documentation</strong>.</p>
           <a href="https://github.com/software-students-fall2024/3-python-package-java_and_the_scripts_" target="_blank" rel="noopener noreferrer">
             View on GitHub
+          </a>
+          <a href="https://github.com/software-students-fall2024/4-containers-java-and-the-scripts-1" target="_blank" rel="noopener noreferrer">
+            PyPI package link
           </a>
         </div>
 
