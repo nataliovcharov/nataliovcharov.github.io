@@ -11,7 +11,7 @@ function Home() {
         <div className="text-section">
           <TypeAnimation
             sequence={[
-              "Hi.", 3000,
+              "Hi.", 1000,
               "Hi. I'm Natalie.", 2000
             ]}
             wrapper="h1"

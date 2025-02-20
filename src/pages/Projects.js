@@ -11,7 +11,8 @@ function Projects() {
         {/* Project 1 */}
         <div className="project-card">
           <h2>Project 1</h2>
-          <p>We developed <strong>WEARther</strong>, a web app that combines real-time weather data with curated outfit recommendations. This project applied <strong>software teamwork, database integration, containerization, deployment, and CI/CD pipelines</strong>. Our system includes <strong>Dockerized subsystems</strong>, featuring a <strong>MongoDB database</strong> and a <strong>Python-based service</strong> within a <strong>monorepo</strong>. Each subsystem has its own <strong>CI/CD pipeline</strong> using <strong>GitHub Actions</strong> for automated testing, Docker image delivery to <strong>Docker Hub</strong>, and deployment to <strong>Digital Ocean</strong>.</p>          <video controls>
+          <p>We developed <strong>WEARther</strong>, a web app that combines real-time weather data with curated outfit recommendations. This project applied <strong>teamwork, database integration, containerization, deployment, and CI/CD pipelines</strong>.<br></br><br></br>Our system includes <strong>Dockerized subsystems</strong>, featuring a <strong>MongoDB database</strong> and a <strong>Python-based service</strong> within a <strong>monorepo</strong>. Each subsystem has its own <strong>CI/CD pipeline</strong> using <strong>GitHub Actions</strong> for automated testing, Docker image delivery to <strong>Docker Hub</strong>, and deployment to <strong>Digital Ocean</strong>.</p>          <video controls>
+            
             <source src="/project1-demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -23,7 +24,7 @@ function Projects() {
         {/* Project 2 */}
         <div className="project-card">
           <h2>Project 2</h2>
-          <p><strong>Voice Journal</strong> is a hands-free journal that transcribes and analyzes speech to track mood trends. This project applied <strong>machine learning, database integration, containerization, deployment, and CI/CD pipelines</strong>. The system includes <strong>Dockerized subsystems</strong>, featuring a <strong>machine learning client</strong>, a <strong>Flask web app</strong>, and a <strong>MongoDB database</strong> within a monorepo. Each subsystem has its own <strong>CI/CD pipeline</strong> using <strong>GitHub Actions</strong> for automated testing, Docker image delivery to <strong>Docker Hub</strong>, and deployment to <strong>Digital Ocean</strong>.</p>
+          <p><strong>Voice Journal</strong> is a hands-free journal that transcribes and analyzes speech to track mood trends. This project applied <strong>machine learning, database integration, containerization, deployment, and CI/CD pipelines</strong>. <br></br><br></br>The system includes <strong>Dockerized subsystems</strong>, featuring a <strong>machine learning client</strong>, a <strong>Flask web app</strong>, and a <strong>MongoDB database</strong> within a monorepo. Each subsystem has its own <strong>CI/CD pipeline</strong> using <strong>GitHub Actions</strong> for automated testing, Docker image delivery to <strong>Docker Hub</strong>, and deployment to <strong>Digital Ocean</strong>.</p>
           <video controls>
             <source src="/project2-demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
